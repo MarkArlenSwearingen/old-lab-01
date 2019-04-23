@@ -8,7 +8,6 @@ header {
   outline: 2px solid black;
 }
 
-
 nav {
   width: 200px;
   height: 600px;
@@ -17,25 +16,20 @@ nav {
 }
 
 .cd {
-  /* width: 760px; */
   max-width: 768px;
-  /* min-width: 50%; */
   height:200px;
   outline: 2px dotted blueviolet;
   margin-left: 200px;
 }
 
 .efgh {
-  /* width: 760px; */
   max-width: 768px;
-  /* min-width: 50%; */
   height: 250px;
   outline: 2px dotted blueviolet;
   margin-left: 200px;
 }
 
 div section {
-  /* width: 380px; */
   max-width: 380px;
   min-width: 50%;
   height:200px;
@@ -50,6 +44,7 @@ div article {
   outline: 2px solid green;
   float: left;
 }
+
 footer {
   width: 760px;
   height: 150px;
