@@ -5,5 +5,32 @@ body {
 header {
   width: 480px;
   height: 75px;
-  border: 2px solid black;
+  outline: 2px solid black;
+}
+
+nav {
+  width: 480px;
+  height:150px;
+  outline: 2px solid black;
+}
+
+div section {
+  width: 480px;
+  height:250px;
+  outline: 2px solid black;
+  margin: auto;
+}
+
+div article {
+  width: 240px;
+  height:250px;
+  outline: 2px solid green;
+  float: left;
+}
+
+footer {
+  width: 480px;
+  height: 80px;
+  outline: 2px solid beige;
+ clear: left;
 }
