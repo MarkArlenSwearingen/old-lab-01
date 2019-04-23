@@ -1,6 +1,15 @@
 @import url('./reset.css');
+/* body {
+  background-color: bisque;
+} */
 
+@import url('./layout.css');
+@import url('./modules.css');
 
-@import url('./style/layout.css');
-@import url('./style/modules.css');
+body {
+  margin: auto;
+}
+header {
+  margin: auto;
+}
 
