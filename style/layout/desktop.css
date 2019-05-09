@@ -2,52 +2,64 @@ body {
   background-color: brown;
 }
 
+main {
+  grid-row: 2 span 4;
+  grid-column: 1 span 5;
+}
+.container {
+  display: grid;
+  grid-template-columns: 20fr 19fr 19fr 19fr 19fr;
+  grid-template-rows: 100fr 200fr 250fr 150fr;
+}
+
 header {
-  width: 960px;
-  height: 100px;
+  text-align: center;
+  display: grid;
+  grid-row: 1;
+  grid-column: 1 span 5;
   outline: 2px solid black;
 }
 
 nav {
-  width: 200px;
-  height: 600px;
+  text-align: center;
+  display: grid;
+    grid-area: 1 2 6 6;
   outline: 2px solid black;
-  float: left;
 }
 
 .cd {
+  text-align: center;
   max-width: 768px;
-  height:200px;
   outline: 2px dotted blueviolet;
   margin-left: 200px;
 }
 
 .efgh {
+  text-align: center;
   max-width: 768px;
-  height: 250px;
   outline: 2px dotted blueviolet;
   margin-left: 200px;
 }
 
 div section {
-  max-width: 380px;
+  text-align: center;
+  max-width: 40%;
   min-width: 50%;
-  height:200px;
   outline: 2px solid red;
   float: left;
 }
 
 div article {
-  max-width: 190px;
+  text-align: center;
+  max-width: 20%;
   min-width: 25%;
-  height:250px;
   outline: 2px solid green;
   float: left;
 }
 
 footer {
-  width: 760px;
-  height: 150px;
+  text-align: center;
+  grid-row: end;
+  grid-column: end;
   outline: 2px solid beige;
- clear: left;
 }
