@@ -5,12 +5,13 @@ body {
 nav {
   text-align: center;
   align-items: center;
+  height: 9.4em;
 }
 
 header {
   text-align: center;
   width: 100%;
-  height: 4em;
+  height: 4.7em;
 }
 
 div section {
@@ -18,7 +19,7 @@ div section {
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 10em;
+  height: 7.9em;
   outline: 2px solid black;
 }
 
@@ -26,7 +27,7 @@ article {
   text-align: center;
   float: left;
   width: 50%;
-  height: 25em;
+  height: 15.9em;
   outline: 3px solid green;
 }
 
@@ -34,6 +35,6 @@ footer {
   clear: both;
   text-align: center;
   width: 100%;
-  height: 20em;
+  height: 5em;
   outline: 2px solid beige;
 }
